@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -entry point
- * return: 0 (success)
- */
+  * main -entry point
+  * Return: 0 (success)
+  */
 int main(void)
 {
 	int n = 97;
