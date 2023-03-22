@@ -12,7 +12,7 @@ int print_last_digit(int dgt)
 
 	if (ndgt < 0)
 	{
-		ndgt = (-1 * dgt);
+		ndgt = (-1 * ndgt);
 	}
 	_putchar(ndgt + '0');
 
