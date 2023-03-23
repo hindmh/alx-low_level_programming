@@ -6,7 +6,7 @@
 * Return: void
 */
 
-void print_times_table(int n)
+void times_table(int n)
 {
 int i, j, prd;
 if (n < 0 || n > 15)
