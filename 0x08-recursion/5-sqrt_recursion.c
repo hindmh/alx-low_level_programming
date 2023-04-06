@@ -10,7 +10,7 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (actual_sqrt_recursion(n, 0));
+	return (square_recursion(n, 0));
 }
 /**
  * square_recursion - recurses to find the natural
@@ -25,6 +25,6 @@ int square_recursion(int n, int m)
 		return (-1);
 	if (m * m == n)
 		return (m);
-	return (actual_sqrt_recursion(n, m + 1));
+	return (square_recursion(n, m + 1));
 }
 
